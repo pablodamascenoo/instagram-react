@@ -1,36 +1,10 @@
-import Story from "./Story";
+import Stories from "./Stories";
 import Post from "./Post";
 
 export default function Esquerda() {
   return (
     <div className="esquerda">
-      <div className="stories">
-        <Story image="assets/img/9gag.svg" name="9gag" />
-
-        <Story image="assets/img/meowed.svg" name="meowed" />
-
-        <Story image="assets/img/barked.svg" name="barked" />
-
-        <Story
-          image="assets/img/nathanwpylestrangeplanet.svg"
-          name="nathanwpylestrangeplanet"
-        />
-
-        <Story image="assets/img/wawawicomics.svg" name="wawawicomics" />
-
-        <Story image="assets/img/respondeai.svg" name="respondeai" />
-
-        <Story image="assets/img/filomoderna.svg" name="filomoderna" />
-
-        <Story image="assets/img/memeriagourmet.svg" name="memeriagourmet" />
-
-        <Story image="assets/img/m.svg" name="filomoderna" />
-
-        <div className="setinha">
-          <ion-icon name="chevron-forward-circle"></ion-icon>
-        </div>
-      </div>
-
+      <Stories />
       <div className="posts">
         <Post
           profile="assets/img/meowed.svg"
