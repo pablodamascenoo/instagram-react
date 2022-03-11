@@ -1,62 +1,29 @@
+import Story from "./Story";
+
 export default function Esquerda() {
   return (
     <div className="esquerda">
       <div className="stories">
-        <div className="story">
-          <div className="imagem">
-            <img src="assets/img/9gag.svg" alt="story" />
-          </div>
-          <div className="usuario">9gag</div>
-        </div>
+        <Story image="assets/img/9gag.svg" name="9gag" />
 
-        <div className="story">
-          <div className="imagem">
-            <img src="assets/img/meowed.svg" alt="story" />
-          </div>
-          <div className="usuario">meowed</div>
-        </div>
+        <Story image="assets/img/meowed.svg" name="meowed" />
 
-        <div className="story">
-          <div className="imagem">
-            <img src="assets/img/barked.svg" alt="story" />
-          </div>
-          <div className="usuario">barked</div>
-        </div>
+        <Story image="assets/img/barked.svg" name="barked" />
 
-        <div className="story">
-          <div className="imagem">
-            <img src="assets/img/nathanwpylestrangeplanet.svg" alt="story" />
-          </div>
-          <div className="usuario">nathanwpylestrangeplanet</div>
-        </div>
+        <Story
+          image="assets/img/nathanwpylestrangeplanet.svg"
+          name="nathanwpylestrangeplanet"
+        />
 
-        <div className="story">
-          <div className="imagem">
-            <img src="assets/img/wawawicomics.svg" alt="story" />
-          </div>
-          <div className="usuario">wawawicomics</div>
-        </div>
+        <Story image="assets/img/wawawicomics.svg" name="wawawicomics" />
 
-        <div className="story">
-          <div className="imagem">
-            <img src="assets/img/respondeai.svg" alt="story" />
-          </div>
-          <div className="usuario">respondeai</div>
-        </div>
+        <Story image="assets/img/respondeai.svg" name="respondeai" />
 
-        <div className="story">
-          <div className="imagem">
-            <img src="assets/img/filomoderna.svg" alt="story" />
-          </div>
-          <div className="usuario">filomoderna</div>
-        </div>
+        <Story image="assets/img/filomoderna.svg" name="filomoderna" />
 
-        <div className="story">
-          <div className="imagem">
-            <img src="assets/img/memeriagourmet.svg" alt="story" />
-          </div>
-          <div className="usuario">memeriagourmet</div>
-        </div>
+        <Story image="assets/img/memeriagourmet.svg" name="memeriagourmet" />
+
+        <Story image="assets/img/m.svg" name="filomoderna" />
 
         <div className="setinha">
           <ion-icon name="chevron-forward-circle"></ion-icon>
