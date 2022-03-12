@@ -1,11 +1,12 @@
 import Curtidas from "./Curtidas";
 
 export default function Post(props) {
+  const { profile, photo, curtidasPhoto, likes, likePerson } = props;
   return (
     <div className="post">
       <div className="topo">
         <div className="usuario">
-          <img src={props.profile} alt="post" />
+          <img src={profile} alt="post" />
           meowed
         </div>
         <div className="acoes">
@@ -14,7 +15,7 @@ export default function Post(props) {
       </div>
 
       <div className="conteudo">
-        <img src={props.photo} alt="post" />
+        <img src={photo} alt="post" />
       </div>
 
       <div className="fundo">
@@ -28,11 +29,7 @@ export default function Post(props) {
             <ion-icon name="bookmark-outline"></ion-icon>
           </div>
         </div>
-        <Curtidas
-          image={props.curtidasPhoto}
-          likes={props.likes}
-          likePerson={props.likePerson}
-        />
+        <Curtidas image={curtidasPhoto} likes={likes} likePerson={likePerson} />
       </div>
     </div>
   );

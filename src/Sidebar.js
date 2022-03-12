@@ -1,3 +1,4 @@
+// TODO add props, destructure and map through suggestions
 export default function Sidebar() {
   return (
     <div className="sidebar">

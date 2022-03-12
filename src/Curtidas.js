@@ -1,10 +1,11 @@
 export default function Curtidas(props) {
+  const { image, likePerson, likes } = props;
   return (
     <div className="curtidas">
-      <img src={props.image} alt="post" />
+      <img src={image} alt="post" />
       <div className="texto">
-        Curtido por <strong>{props.likePerson}</strong> e{" "}
-        <strong>outras {props.likes} pessoas</strong>
+        Curtido por <strong>{likePerson}</strong> e{" "}
+        <strong>outras {likes} pessoas</strong>
       </div>
     </div>
   );
